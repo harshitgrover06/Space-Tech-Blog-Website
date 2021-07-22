@@ -1,0 +1,98 @@
+.sidebar{
+    flex: 3;
+    margin: 20px;
+    padding-bottom: 30px;
+    background-color: #e0e6dd50;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* height: 1240px; */
+    height: 750px;
+}
+.sideimg{
+    width: 230px;
+    height: 190px;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+.sidebarItems{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sidebarTitle{
+    display: block;
+    margin: 10px;
+    padding: 5px;
+    width: 80%;
+    border-top: 1px solid #a7a4a4;
+    border-bottom: 1px solid #a7a4a4;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 12px;
+    color: #222;
+    font-weight: 700;
+    text-align: center;
+}
+.sidebarItems >img{
+    margin-top: 15px;
+}
+.sidebarItems >p{
+    padding: 30px;
+}
+.sidebarList{
+    list-style: none;
+    margin-bottom: 30px;
+}
+.we{
+    text-align: justify;
+    font-weight: 500;
+}
+.sidebarListItem{
+    float: left;
+    text-align: center;
+    font-style: italic;
+    width: 50%;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.sidebarSocial{
+    display: flex;
+    margin: 10px;
+    width: 250px;
+    align-items: center;
+    justify-content: center;
+}
+.sidebarIcon{
+    font-size: 18px;
+    margin: 8px;
+    cursor: pointer;
+}
+.recentposts{
+    margin-top: 10px;
+}
+.recentpostTitle{
+    display: block;
+    text-align: center;
+    font-family:"Varela Round","sans-serif";
+}
+
+.recentpostsitem{
+    list-style: none;
+    line-height: 30px;
+    margin-left: -20px;
+}
+.recentpostsitem{
+    text-align: center;
+    font-family:"Varela Round","sans-serif";
+    font-style: italic;
+}
+.recentposts >img{
+    display: block;
+    align-items: center;
+    width: 220px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 10px;
+}

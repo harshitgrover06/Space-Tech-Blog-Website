@@ -1,0 +1,71 @@
+.login {
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/src/header/images/homed.jpg);
+    background: linear-gradient(
+        rgba(173, 8, 195, 0.082),
+        rgba(84, 15, 194, 0.274)
+      ),
+      url(/src/header/images/homed.jpg);
+    background-size: cover;
+  }
+  
+  .loginTitle {
+    color: white;
+    font-size: 100px;
+    justify-content: center;
+  }
+  
+  .loginForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .loginForm > label {
+    margin: 10px 0;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .loginInput {
+    padding: 10px;
+    background-color: white;
+    border: 2.25px solid crimson;
+    border-radius: 10px;
+  }
+  
+  .loginInput:focus {
+    outline: none;
+  }
+  
+  .loginButton{
+    margin-top: 30px;
+    cursor: pointer;
+    background-color: crimson;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .loginButton:disabled{
+    cursor: not-allowed;
+    background-color: brown;
+  }
+  
+  .loginRegisterButton {
+    position: absolute;
+    top: 90px;
+    right: 20px;
+    background-color: teal;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+  }
+  

@@ -23,7 +23,7 @@ function App() {
     <TopBar/>
     <Switch>
       <Route exact path="/">
-        <Home/>
+        {user?<Home/>:<Login/>}
       </Route>
       <Route path="/Settings">
         {user?<Setting/>:<Register/>}
